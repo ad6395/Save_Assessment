@@ -12,4 +12,4 @@ Second API detects fraud by comparing the User's primmary location and the locat
 # MySQL Database.
 
 The transactions table in the database required data cleaning for segregating the state names from merchant_description column. This was required for designing the second API.
-Data cleaning was done using Python
+Data cleaning was done using Python.
