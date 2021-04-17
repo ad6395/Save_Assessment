@@ -8,3 +8,8 @@ The API then checks the ration between average transaction and highest transacti
 
 Second API detects fraud by comparing the User's primmary location and the location as which the transaction occured. If the locations do not match, then the API concludes transaction as fraud.
 
+
+# MySQL Database.
+
+The transactions table in the database required data cleaning for segregating the states name from merchant_description column. This was required for designing the second API.
+Data cleaning was done using Python
